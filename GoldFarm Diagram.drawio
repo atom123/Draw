@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2022-01-28T06:36:54.149Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" etag="oEfCqdamWrLFiL7qmAxY" version="16.4.5" type="github">
+<mxfile host="app.diagrams.net" modified="2022-01-28T06:39:09.365Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" etag="JsOEmYl1bUo_VtsSIjuF" version="16.4.5" type="github">
   <diagram name="Page-1" id="c4acf3e9-155e-7222-9cf6-157b1a14988f">
-    <mxGraphModel dx="1419" dy="580" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="none" math="0" shadow="0">
+    <mxGraphModel dx="2027" dy="829" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="17acba5748e5396b-20" value="GoldFarmController" style="swimlane;html=1;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#ffffff;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=10;align=center;" parent="1" vertex="1">
-          <mxGeometry x="1220" y="20" width="220" height="110" as="geometry" />
+          <mxGeometry x="1130" y="120" width="220" height="110" as="geometry" />
         </mxCell>
         <mxCell id="17acba5748e5396b-21" value="+&amp;nbsp;GoldFarmView _view" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="17acba5748e5396b-20" vertex="1">
           <mxGeometry y="26" width="220" height="26" as="geometry" />
@@ -17,7 +17,7 @@
           <mxGeometry y="78" width="220" height="26" as="geometry" />
         </mxCell>
         <mxCell id="5d2195bd80daf111-5" value="GoldFarmModel" style="swimlane;html=1;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#ffffff;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=10;align=center;" parent="1" vertex="1">
-          <mxGeometry x="1470" y="110" width="330" height="82" as="geometry" />
+          <mxGeometry x="1220" y="289" width="330" height="82" as="geometry" />
         </mxCell>
         <mxCell id="5d2195bd80daf111-6" value="GoldTreeStatus _GoldTreeStatus" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="5d2195bd80daf111-5" vertex="1">
           <mxGeometry y="26" width="330" height="26" as="geometry" />
@@ -25,70 +25,53 @@
         <mxCell id="5d2195bd80daf111-7" value="List&amp;lt;ShopModel.ShopSvrItem&amp;gt; _ShopSvrItems" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="5d2195bd80daf111-5" vertex="1">
           <mxGeometry y="52" width="330" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="5d2195bd80daf111-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;dashed=1;labelBackgroundColor=none;startFill=0;endArrow=open;endFill=0;endSize=10;fontFamily=Verdana;fontSize=10;" parent="1" source="5d2195bd80daf111-11" target="6fVXppRu0Fsn6vCvAbmF-7" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="115" y="770" />
-              <mxPoint x="650" y="770" />
-            </Array>
-            <mxPoint x="425" y="579" as="targetPoint" />
-          </mxGeometry>
+        <mxCell id="6fVXppRu0Fsn6vCvAbmF-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="5d2195bd80daf111-11" target="6fVXppRu0Fsn6vCvAbmF-7">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="5d2195bd80daf111-11" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;FGUIWindowBaseView&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;Interface&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+&amp;nbsp; Window window&lt;br&gt;+ object data&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ void InitInfo(object[] info)&lt;br&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1" parent="1" vertex="1">
-          <mxGeometry x="20" y="380" width="190" height="110" as="geometry" />
+          <mxGeometry x="85" y="510" width="190" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="5d2195bd80daf111-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;labelBackgroundColor=none;startFill=0;endArrow=open;endFill=0;endSize=10;fontFamily=Verdana;fontSize=10;dashed=1;" parent="1" source="5d2195bd80daf111-18" target="17acba5748e5396b-20" edge="1">
+        <mxCell id="6fVXppRu0Fsn6vCvAbmF-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="5d2195bd80daf111-18" target="6fVXppRu0Fsn6vCvAbmF-1">
           <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="6fVXppRu0Fsn6vCvAbmF-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="5d2195bd80daf111-18" target="6fVXppRu0Fsn6vCvAbmF-1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="6fVXppRu0Fsn6vCvAbmF-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="5d2195bd80daf111-18" target="6fVXppRu0Fsn6vCvAbmF-7">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="465" y="540" as="targetPoint" />
-          </mxGeometry>
         </mxCell>
         <mxCell id="5d2195bd80daf111-18" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;MsgInterface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;Interface&lt;/b&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ Register():&amp;nbsp;int&lt;br&gt;+ UnRegister():int&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1" parent="1" vertex="1">
           <mxGeometry x="70" y="5" width="190" height="140" as="geometry" />
         </mxCell>
-        <mxCell id="5d2195bd80daf111-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;dashed=1;labelBackgroundColor=none;startFill=0;endArrow=open;endFill=0;endSize=10;fontFamily=Verdana;fontSize=10;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="17acba5748e5396b-24" target="5d2195bd80daf111-5" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="1220" y="80" />
-              <mxPoint x="1180" y="80" />
-              <mxPoint x="1180" y="180" />
-            </Array>
-            <mxPoint x="250" y="560" as="sourcePoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="6fVXppRu0Fsn6vCvAbmF-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="6fVXppRu0Fsn6vCvAbmF-1" target="17acba5748e5396b-21">
+        <mxCell id="6fVXppRu0Fsn6vCvAbmF-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="6fVXppRu0Fsn6vCvAbmF-1" target="17acba5748e5396b-24">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="6fVXppRu0Fsn6vCvAbmF-1" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;i&gt;GoldFarmView:MsgInterface,ViewInterface&lt;/i&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+&amp;nbsp;&lt;span&gt;&amp;nbsp;GoldFarmModel _model&lt;/span&gt;&lt;br&gt;+&amp;nbsp; GoldFarmController _controller&lt;/p&gt;&lt;br&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ InjectModel(GoldFarmModel&amp;nbsp;): void&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1" vertex="1" parent="1">
-          <mxGeometry x="960" y="310" width="500" height="110" as="geometry" />
+          <mxGeometry x="510" y="310" width="270" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="6fVXppRu0Fsn6vCvAbmF-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="6fVXppRu0Fsn6vCvAbmF-3" target="6fVXppRu0Fsn6vCvAbmF-7">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="505" y="540" as="targetPoint" />
-          </mxGeometry>
+        <mxCell id="6fVXppRu0Fsn6vCvAbmF-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="6fVXppRu0Fsn6vCvAbmF-3" target="6fVXppRu0Fsn6vCvAbmF-1">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="6fVXppRu0Fsn6vCvAbmF-3" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;&lt;/i&gt;&lt;i&gt;ViewInterface&lt;/i&gt;&lt;i&gt;&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;Interface&lt;/b&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ GetComponetHandle():&amp;nbsp;int&lt;br&gt;+ AddBindEvent():int&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ RemoveBindEvent():int&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ AddBindEvent():int&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ ShowInitialView():int&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ OnSceenScaleChanged(object):int&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1" vertex="1" parent="1">
-          <mxGeometry x="490" width="220" height="180" as="geometry" />
+          <mxGeometry x="70" y="240" width="220" height="180" as="geometry" />
         </mxCell>
-        <mxCell id="6fVXppRu0Fsn6vCvAbmF-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="6fVXppRu0Fsn6vCvAbmF-7" target="6fVXppRu0Fsn6vCvAbmF-8">
+        <mxCell id="6fVXppRu0Fsn6vCvAbmF-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;" edge="1" parent="1" source="6fVXppRu0Fsn6vCvAbmF-10" target="6fVXppRu0Fsn6vCvAbmF-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6fVXppRu0Fsn6vCvAbmF-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="6fVXppRu0Fsn6vCvAbmF-7" target="6fVXppRu0Fsn6vCvAbmF-8">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="6fVXppRu0Fsn6vCvAbmF-7" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;i&gt;DirectShopView:FGUIWindowsBaseView,MsgInterface,ViewInterface&lt;/i&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&amp;nbsp; &amp;nbsp; GoldFarmDirectShopController _controller;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&amp;nbsp; &amp;nbsp; ShopModel _model;&lt;/p&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ InjectModel(GoldFarmModel&amp;nbsp;): void&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1" vertex="1" parent="1">
-          <mxGeometry x="240" y="503" width="400" height="110" as="geometry" />
+          <mxGeometry x="130" y="710" width="400" height="110" as="geometry" />
         </mxCell>
         <mxCell id="6fVXppRu0Fsn6vCvAbmF-8" value="&lt;div style=&quot;text-align: center&quot;&gt;&lt;span&gt;&lt;i&gt;GoldFarmDirectShopController&amp;nbsp;&lt;/i&gt;&lt;/span&gt;&lt;/div&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&amp;nbsp; &amp;nbsp;GoldFarmDirectShopController Inst;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&amp;nbsp; &amp;nbsp;DirectShopView _view;&lt;/p&gt;&lt;div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; ShopModel _model;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; OnTaskSvrCommand _command;&lt;br&gt;&lt;/div&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&amp;nbsp; &amp;nbsp; public int ShowUpgradeDialog(object obj0 = null, object obj1 = null, object obj2 = null, object obj3 = null, object obj4 = null)&lt;/p&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1" vertex="1" parent="1">
           <mxGeometry x="820" y="513" width="730" height="127" as="geometry" />
         </mxCell>
-        <mxCell id="6fVXppRu0Fsn6vCvAbmF-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="6fVXppRu0Fsn6vCvAbmF-10" target="6fVXppRu0Fsn6vCvAbmF-8">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="6fVXppRu0Fsn6vCvAbmF-10" value="&lt;div style=&quot;text-align: center&quot;&gt;&lt;span&gt;&lt;i&gt;ShopModel&lt;/i&gt;&lt;/span&gt;&lt;/div&gt;&lt;hr size=&quot;1&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;PropInfo _propinfo&lt;br&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&amp;nbsp; &amp;nbsp; public int InitPropInfo(PropInfo info)&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1" vertex="1" parent="1">
-          <mxGeometry x="760" y="670" width="400" height="110" as="geometry" />
+          <mxGeometry x="910" y="770" width="400" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="6fVXppRu0Fsn6vCvAbmF-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;" edge="1" parent="1" source="6fVXppRu0Fsn6vCvAbmF-7" target="6fVXppRu0Fsn6vCvAbmF-10">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="580" y="935" as="sourcePoint" />
+            <mxPoint x="1185.0000000000005" y="640" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6fVXppRu0Fsn6vCvAbmF-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="5d2195bd80daf111-7" target="17acba5748e5396b-24">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
